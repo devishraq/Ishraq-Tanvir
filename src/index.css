@@ -1,0 +1,28 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+ 
+ 
+::-webkit-scrollbar {
+    width: 8px; 
+  }
+ 
+::-webkit-scrollbar-track {
+     border-radius: 10px;
+  }
+ 
+::-webkit-scrollbar-thumb {
+    background:  rgb(31 41 55); 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(35, 47, 62); 
+}
+
+.span-body{
+    @apply px-1 font-medium rounded-sm text-gray-950
+}
