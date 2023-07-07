@@ -12,6 +12,5 @@
     },
   },
   plugins: [
-    require('tailwind-scrollbar'),
-  ],
+   ],
 } 
