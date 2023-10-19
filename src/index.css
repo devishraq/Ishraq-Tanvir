@@ -1,28 +1,29 @@
- @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Outfit&family=Raleway&display=swap");
 
+:root {
+ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-:root{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
- 
- 
 ::-webkit-scrollbar {
-    width: 8px; 
-  }
- 
-::-webkit-scrollbar-track {
-     border-radius: 10px;
-  }
- 
-::-webkit-scrollbar-thumb {
-    background:  rgb(31 41 55); 
-    border-radius: 10px;
-}
-  
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(35, 47, 62); 
+ width: 8px;
 }
 
-.span-body{
-    @apply px-1 font-medium rounded-sm text-gray-950
+::-webkit-scrollbar-track {
+ border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+ background: rgb(31 41 55);
+ border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background: rgb(35, 47, 62);
+}
+
+.span-body {
+ @apply px-1 font-medium rounded-sm text-gray-950;
 }
